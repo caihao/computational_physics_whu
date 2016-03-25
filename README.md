@@ -52,7 +52,7 @@
 ### GitHub不支持LaTex公式的一种解决办法
 - 公式中不含有空格时，可通过`![](http://latex.codecogs.com/gif.latex?\alpha_A+\beta)`来发布公式，将连接中的`\alpha_A+\beta`替换为想输入的公式即可。
 - 公式中含有空格时，可以在[codecogs](http://latex.codecogs.com/)先编辑好公式，然后右击公式，选择图象属性，复制其中“源文件”一栏中的url，在markdown文档中以图片格式发布。
-- 基于前两条，我（ron89）写了一个[简单的vim插件](github.com/ron89/md_insert_equation.vim)帮助方便地插入/修改公式。使用vim的同学可以安装它。使用方法：
- + 用`<localleader>ee`或`:EditEquation`调出公式编辑栏，若此刻光标不在公式图片链接的区域，则会在操作结束后在光标处插入新的公式图片链接；若光标在已插入公式图片链接内，则会开始修改当前公式。
- + 在编辑窗内键入LaTeX语法的公式，回车即可结束公式编辑
+- 基于上述方法以及markdown链接字符的character escape要求，ron89 写了一个[简单的vim插件](github.com/ron89/md_insert_equation.vim)帮助方便地插入/修改公式，和他的另一个插件一样，这个插件需要python支持。使用vim的同学可以安装它。使用方法：
+ + 用`<localleader>ee`或`:EditEquation`调出公式编辑栏，若此刻光标不在公式图片链接的区域，会在操作结束后在光标处插入新的公式图片链接；若光标在已插入公式图片链接内，则会开始修改当前公式。
+ + 在编辑窗内键入LaTeX语法的公式，回车即可结束公式编辑。
  + **注** `<localleader>` 默认是键盘上的`\`键。
