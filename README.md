@@ -45,3 +45,11 @@
 - 物理学院女生本来就少，请各位来上我课的女同学一定要有**信心**
 - 学好我这门课的不二法门就是『练习』二字，请各位同学给我惊喜吧，我准备**以作业长度论英雄**
 
+## 学生名单
+- [2016年计算物理课学生名单](friends/students_2016.md)
+
+## 各位同学贡献的技巧
+### GitHub不支持LaTex公式的一种解决办法
+- 公式中不含有空格时，可通过`![](http://latex.codecogs.com/gif.latex?\alpha_A+\beta)`来发布公式，将连接中的`\alpha_A+\beta`替换为想输入的公式即可。
+- 公式中含有空格时，可以在[codecogs](http://latex.codecogs.com/)先编辑好公式，然后右击公式，选择图象属性，复制其中“源文件”一栏中的url，在markdown文档中以图片格式发布。
+- [配合codecogs在vim里面插入公式的插件](https://github.com/Ron89/md_insert_equation.vim)
