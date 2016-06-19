@@ -108,3 +108,9 @@
 3. [欧阳创新 2012301020084](https://github.com/Ouyangchuangxin/computationalphysics_2012301020084)
 4. [毛冠东 2012301020109](https://github.com/maoguandong/computationalphysics_N2012301020109/blob/master/README.md)
 5. [刘芮彤 2012301020035](https://github.com/2012301020035/computationalphysics_N2012301020035)
+
+## 2014级选修学生
+1.[卢昌朋 2014301020131](https://github.com/Nucleus2014/computationalphysics_N2014301020131)
+2.[张旨晗 2014301020035](https://github.com/1412kid/computationalphysics_n2014301020035)
+3.[罗开发 2014301580293](https://github.com/luokaifa-whu/computationalphysics_N2014301580293)
+4.[李睿明 2014301020112](https://github.com/2014301020112/computationalphysics_N2014301020112)
